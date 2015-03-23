@@ -1,0 +1,20 @@
+{
+  "name": "gsim",
+  "version": "0.0.1",
+  "author": "philhug",
+  "description": "Garmin Simulator Protocol",
+  "bin": { "gsim_server": "./server.js", "gsim_client": "./client.sh" },
+  "keywords": [
+    "gsim",
+    "garmin"
+  ],
+  "dependencies": {
+    "binary": "^0.3.0",
+    "hexdump-nodejs": "^0.1.0",
+    "process": "^0.10.1"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "license": "MIT"
+}
